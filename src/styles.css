@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+}

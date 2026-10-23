@@ -1,0 +1,98 @@
+PWA Modification Prompt – Shivang Stocks Researcher
+
+I want to make the following improvements to my existing Progressive Web App (PWA). Modify only the features and functionalities explicitly mentioned below. Do not change anything else in the application.
+
+Preserve the existing app name, app icon, UI/UX, layout, design, theme, and all other existing features exactly as they are. After completing the modifications, provide the updated "index.html" file in the same format as the original.
+
+1. Improve Data Sources, APIs, Accuracy and Speed
+
+Integrate and utilize multiple reliable financial data sources and APIs, including Groww, Moneycontrol, Yahoo Finance, Tickertape, Screener.in, and all other sources previously used in Shivang Stocks Researcher.
+
+Ensure that financial data is fetched as quickly and accurately as possible. The application should efficiently retrieve and cross-check information from available sources to maximize data accuracy and reliability.
+
+2. Add a Subtle Loading Animation and Background Data Fetching
+
+Introduce a small, pleasant, smooth, and unobtrusive animation while the application is fetching stock data.
+
+The application should remain fully functional in the foreground while stock data continues to be fetched in the background after initiating a search.
+
+Background fetching should not interrupt or freeze the application. The latest stock prices and financial information should be updated when the user clicks the existing manual refresh option.
+
+3. Fix Stock Search and Autosuggestions
+
+The existing stock search and autosuggestion functionality is not working properly and needs to be fixed.
+
+The search functionality should:
+
+- Support all 5,500+ stocks listed on the NSE and BSE.
+- Automatically display relevant stock suggestions immediately after the user enters the first few letters or words of a company's name.
+- Accurately identify and suggest matching listed companies.
+- Allow users to select a suggested stock directly without repeatedly clicking the search button.
+- Provide a fast, smooth, and reliable search experience.
+
+4. Ensure Maximum Accuracy of Financial and Valuation Data
+
+All financial and valuation parameters must be retrieved and calculated with the highest possible accuracy.
+
+This includes P/E ratio, forward P/E ratio, industry P/E ratio, shareholding patterns, and all other financial data already used by the application.
+
+These parameters directly influence the application's weighted scoring framework and final stock verdict. Therefore, inaccurate, inconsistent, or incorrectly calculated financial data must be eliminated.
+
+Ensure that the application uses reliable, correctly calculated, and appropriately verified financial information for its weighted analysis and final recommendations.
+
+5. Improve the Accuracy of Five Support and Resistance Levels
+
+The application currently identifies five support levels and five resistance levels. These levels must be calculated with significantly greater accuracy.
+
+Support and resistance levels should represent historically significant price zones where a stock has repeatedly bounced upward or faced rejection over the previous five years.
+
+The analysis must carefully examine historical price movements to identify these important zones.
+
+These levels are directly used to generate investment recommendations such as:
+
+Buy at Support B1 → Target T1, and similar recommendations based on the identified support and resistance levels.
+
+Therefore, the identification of these levels must be meticulous, reliable, and based on genuine historical price behaviour rather than arbitrary calculations.
+
+6. Keep Support and Resistance Levels Stable for Swing and Long-Term Investing
+
+The application's primary objective is swing trading and long-term investing, not intraday trading.
+
+Accordingly, support and resistance levels should not continuously change merely because the current stock price fluctuates.
+
+These levels should represent established historical price zones identified through the stock's previous five years of price action.
+
+Ensure that support and resistance calculations remain consistent with this investment horizon and do not behave like intraday trading indicators.
+
+7. Fix Homepage Market Index Values
+
+Correct the market index values displayed on the application's homepage.
+
+All displayed index values must accurately reflect the latest available market data.
+
+Ensure that these values are fetched from reliable sources and can be updated using the application's manual refresh functionality.
+
+8. Maximize Data Availability, Completeness and Accuracy
+
+The application currently leaves several financial parameters marked as unavailable.
+
+Improve the existing data-fetching mechanisms to retrieve every available financial, fundamental, technical, valuation, and other parameter already included in the application.
+
+Use the integrated financial data sources and APIs to maximize the completeness, accuracy, and speed of data retrieval.
+
+The objective is to minimize missing information and ensure that the application's analysis and final stock verdict are based on the most comprehensive and accurate data available.
+
+---
+
+Final Instructions
+
+Strictly follow these requirements:
+
+1. Modify only the functionalities explicitly described above.
+2. Do not change the existing application name, icon, branding, theme, layout, UI/UX, or any unrelated functionality.
+3. Preserve all existing features and ensure they continue working exactly as before, except for the improvements requested.
+4. Prioritize financial data accuracy, reliable calculations, comprehensive data retrieval, and fast performance.
+5. Ensure that the changes do not introduce errors or break existing functionality.
+6. After implementing and verifying all modifications, provide the final updated "index.html" file, retaining the original application's structure and appearance.
+
+The objective is to improve the existing Shivang Stocks Researcher PWA's data accuracy, completeness, search functionality, background fetching, and technical analysis reliability without unnecessarily changing anything else in the application.

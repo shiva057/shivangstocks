@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Shivang Stocks Researcher — NSE & BSE Live Equity Intelligence PWA",
+      "hasCanvas": false,
+      "bodyTextLen": 2749,
+      "bodyTextHash": "afdc99e653a679dadc3b9cfdd8ea179fd84ae960197be37efaeeac4a5ddf4c60",
+      "bodyTextPrefix": "ALL NSE & BSE EQUITIES LIVE: Screener.in • Tickertape • Groww • ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Shivang Stocks Researcher — NSE & BSE Live Equity Intelligence PWA",
+      "hasCanvas": false,
+      "bodyTextLen": 2719,
+      "bodyTextHash": "89fb5c1528326a2e298e838a6697da340c447b95c95e3caf1d89c25c1de69df1",
+      "bodyTextPrefix": "ALL NSE & BSE EQUITIES LIVE: Screener.in • Tickertape • Groww • ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

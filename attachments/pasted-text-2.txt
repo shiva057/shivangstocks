@@ -1,0 +1,253 @@
+FINAL PWA MODIFICATION PROMPT — SHIVANG STOCKS RESEARCHER
+
+I want to make the following improvements to my existing Progressive Web App (PWA), Shivang Stocks Researcher.
+
+STRICT INSTRUCTION: Modify only the features and functionalities explicitly mentioned below. Do not change anything else in the application.
+
+Preserve the existing app name, app icon, UI/UX, layout, design, theme, branding, and all other existing features exactly as they are.
+
+After completing all modifications, provide the updated index.html file in the same format as the original.
+
+
+---
+
+1. Improve Financial Data Sources, APIs, Accuracy and Speed
+
+Integrate and utilize multiple reliable financial data sources and APIs, including Groww, Moneycontrol, Yahoo Finance, Tickertape, Screener.in, and all other sources previously used in Shivang Stocks Researcher.
+
+Ensure that financial data is fetched as quickly and accurately as possible.
+
+The application should efficiently retrieve and cross-check information from multiple available sources to maximize data accuracy, completeness, and reliability.
+
+The primary objective is to retrieve the maximum possible amount of accurate financial information with minimum loading time.
+
+1A. Expand Data Sources and APIs Using Grok's Data Retrieval Approach
+
+The existing application was originally developed using Gemini. However, Grok has demonstrated better financial data retrieval capabilities and accuracy in stock analysis.
+
+Improve the application's data-fetching capabilities by incorporating additional financial data sources, APIs, and alternative retrieval methods similar to those used by Grok for Indian stock market research.
+
+Do not limit the application to Groww, Moneycontrol, Yahoo Finance, Tickertape, Screener.in, or the sources already integrated.
+
+Identify and incorporate as many additional reliable financial data sources and APIs as practically possible to improve the accuracy, speed, and completeness of stock analysis.
+
+Key requirements:
+
+1. Explore alternative financial data providers, APIs, and retrieval techniques that can deliver more complete and accurate information about NSE- and BSE-listed stocks.
+
+2. Incorporate additional reliable sources similar to those Grok uses or can access for retrieving financial statements, valuations, shareholding patterns, historical prices, technical indicators, corporate announcements, and other existing analytical parameters.
+
+3. When one data source fails, automatically attempt other available sources until the required financial information is successfully retrieved.
+
+4. Implement a robust multi-source retrieval and automatic fallback mechanism that prioritizes obtaining accurate financial information.
+
+5. Cross-verify important financial metrics across multiple sources wherever possible, particularly P/E, forward P/E, industry P/E, financial results, and shareholding information.
+
+6. Optimize data retrieval to ensure that using multiple sources does not unnecessarily slow down the application.
+
+7. Avoid excessive dependence on a single API, website, or data provider. The application should intelligently utilize different available sources to retrieve the required information.
+
+8. Ensure that all financial figures are genuine, accurately calculated, and verified against reliable sources. Do not fabricate financial data.
+
+9. Ensure that all newly integrated sources and retrieval methods work reliably within the existing PWA architecture.
+
+10. Use the most effective available retrieval methods to maximize financial data coverage across all NSE- and BSE-listed stocks.
+
+Most importantly: The objective is to make Shivang Stocks Researcher as capable as possible of retrieving comprehensive and accurate stock market information using the strongest available data sources, APIs, and retrieval techniques.
+
+Do not unnecessarily restrict data retrieval to the APIs already used in the Gemini-developed application. Explore additional methods and sources to achieve data completeness and accuracy comparable to or better than Grok's stock research capabilities.
+
+
+---
+
+2. Add a Subtle Loading Animation and Background Data Fetching
+
+Introduce a small, pleasant, smooth, and unobtrusive animation while the application is fetching stock data.
+
+The application should remain fully functional in the foreground while stock data continues to be fetched in the background after initiating a search.
+
+Background fetching should not interrupt, freeze, or slow down the application.
+
+The latest stock prices and financial information should be updated when the user clicks the existing manual refresh option.
+
+Ensure that the application continues fetching additional financial information in the background even after the initial stock analysis becomes visible.
+
+The user should be able to view and interact with the stock analysis while additional information is continuously retrieved in the background.
+
+
+---
+
+3. Fix Stock Search and Autosuggestions
+
+The existing stock search and autosuggestion functionality is not working properly and needs to be fixed.
+
+The search functionality should:
+
+1. Support all 5,500+ stocks listed on the NSE and BSE.
+2. Automatically display relevant stock suggestions immediately after the user enters the first few letters or words of a company's name.
+3. Accurately identify and suggest matching listed companies.
+4. Allow users to select a suggested stock directly without repeatedly clicking the search button.
+5. Provide a fast, smooth, and reliable search experience.
+6. Ensure that the autosuggestion database comprehensively covers stocks listed on both exchanges.
+
+The user should not have to repeatedly initiate searches to find a particular stock.
+
+Stock suggestions should appear automatically and accurately as the user types.
+
+
+---
+
+4. Ensure Maximum Accuracy of Financial and Valuation Data
+
+All financial and valuation parameters must be retrieved and calculated with the highest possible accuracy.
+
+This includes:
+
+- P/E ratio
+- Forward P/E ratio
+- Industry P/E ratio
+- Shareholding patterns
+- All other financial, fundamental, and valuation parameters already used by the application.
+
+These parameters directly influence the application's weighted scoring framework and final stock verdict.
+
+Therefore, inaccurate, inconsistent, outdated, or incorrectly calculated financial data must be eliminated.
+
+Ensure that the application uses reliable, correctly calculated, and appropriately verified financial information for its weighted analysis and final recommendations.
+
+Use multiple reliable sources wherever necessary to establish the most accurate values.
+
+Special attention must be given to P/E, forward P/E, and industry P/E calculations because incorrect valuation metrics can significantly distort the final stock verdict.
+
+
+---
+
+5. Improve the Accuracy of Five Support and Resistance Levels
+
+The application currently identifies five support levels and five resistance levels. These levels must be calculated with significantly greater accuracy.
+
+Support and resistance levels should represent historically significant price zones where a stock has repeatedly bounced upward or faced rejection over the previous five years.
+
+The analysis must carefully examine historical price movements to identify these important zones.
+
+These levels are directly used to generate investment recommendations such as:
+
+Buy at Support B1 → Target T1
+
+And similar recommendations based on the identified support and resistance levels.
+
+Therefore, the identification of these levels must be meticulous, reliable, and based on genuine historical price behaviour rather than arbitrary calculations.
+
+The five support and five resistance levels should reflect meaningful historical price zones that have demonstrated repeated significance over the previous five years.
+
+Do not generate support and resistance levels using arbitrary percentage differences from the current market price.
+
+Instead, identify historically validated support and resistance zones based on actual price action.
+
+
+---
+
+6. Keep Support and Resistance Levels Stable for Swing and Long-Term Investing
+
+The application's primary objective is swing trading and long-term investing, not intraday trading.
+
+Accordingly, support and resistance levels should not continuously change merely because the current stock price fluctuates.
+
+These levels should represent established historical price zones identified through the stock's previous five years of price action.
+
+Ensure that support and resistance calculations remain consistent with this investment horizon and do not behave like intraday trading indicators.
+
+The identified levels should remain relatively stable unless meaningful changes in historical price structure justify recalculation.
+
+Do not dynamically shift support and resistance levels simply to keep them close to the current market price.
+
+The objective is to identify genuine long-term buying and selling zones that can be used for swing trading and long-term investment decisions.
+
+
+---
+
+7. Fix Homepage Market Index Values
+
+Correct the market index values displayed on the application's homepage.
+
+All displayed index values must accurately reflect the latest available market data.
+
+Ensure that these values are fetched from reliable sources and can be updated using the application's existing manual refresh functionality.
+
+The displayed index values should not be fabricated, incorrectly calculated, or unnecessarily outdated.
+
+Ensure that manual refresh retrieves the latest available index values directly from reliable market data sources.
+
+
+---
+
+8. Maximize Financial Data Availability, Completeness and Accuracy
+
+Improve the existing data-fetching mechanisms to retrieve every financial, fundamental, technical, valuation, and other parameter already included in the application.
+
+Use the integrated financial data sources, additional APIs, and alternative retrieval methods to maximize the completeness, accuracy, and speed of data retrieval.
+
+Implement an intelligent retrieval mechanism that automatically searches alternative sources whenever the primary source fails to provide the required information.
+
+The application should exhaust all appropriate available data sources and retrieval methods to obtain the necessary financial information.
+
+Key priorities:
+
+1. Retrieve comprehensive financial information for every searched NSE- or BSE-listed stock.
+2. Use multiple APIs and alternative data sources to improve data coverage.
+3. Automatically switch between available sources when necessary.
+4. Cross-check important financial metrics to ensure accuracy.
+5. Retrieve the latest available quarterly and annual financial information.
+6. Ensure that all existing analytical parameters receive accurate and up-to-date data.
+7. Optimize the retrieval process for maximum speed without compromising accuracy.
+8. Ensure that the application's weighted analysis and final stock verdict are based on comprehensive and verified financial information.
+
+The primary objective is to maximize successful data retrieval rather than prematurely stopping the retrieval process when a particular source fails.
+
+
+---
+
+FINAL INSTRUCTIONS — STRICTLY FOLLOW
+
+1. Modify only the functionalities explicitly described above.
+
+2. Do not change the existing application name, icon, branding, theme, layout, UI/UX, or any unrelated functionality.
+
+3. Preserve all existing features and ensure they continue working exactly as before, except for the improvements specifically requested.
+
+4. Prioritize financial data accuracy, reliable calculations, comprehensive data retrieval, and fast performance.
+
+5. Utilize additional reliable financial data sources, APIs, and alternative retrieval techniques inspired by Grok's financial research and data-fetching capabilities.
+
+6. Do not rely excessively on a limited number of APIs when additional reliable sources can provide more accurate or complete information.
+
+7. Ensure that all financial parameters used in the weighted scoring framework and final verdict are as accurate and comprehensive as possible.
+
+8. Ensure that support and resistance levels are derived from genuine five-year historical price behaviour and are appropriate for swing trading and long-term investing.
+
+9. Ensure that stock searches, autosuggestions, background data fetching, manual refreshing, and homepage market index values work properly.
+
+10. Ensure that the changes do not introduce errors or break existing functionality.
+
+11. Do not unnecessarily rewrite the entire application. Make targeted modifications to the existing code.
+
+12. Do not fabricate any financial data. All figures must originate from reliable sources or be calculated accurately using verified financial information.
+
+13. After implementing and verifying all modifications, provide the final updated index.html file, retaining the original application's structure, appearance, and functionality.
+
+
+---
+
+PRIMARY OBJECTIVE
+
+Transform the existing Shivang Stocks Researcher PWA into a significantly more accurate, comprehensive, reliable, and efficient Indian stock research application by improving its financial data sources, API integrations, search functionality, background fetching, valuation accuracy, and historical support/resistance calculations.
+
+The application should utilize the strongest available financial data retrieval methods, including approaches similar to those employed by Grok, to maximize financial information coverage and produce reliable, comprehensive, data-driven stock analysis and investment verdicts.
+
+MOST IMPORTANT RESTRICTION
+
+DO NOT CHANGE ANYTHING BEYOND THE MODIFICATIONS EXPLICITLY REQUESTED.
+
+PRESERVE THE EXISTING APP NAME, ICON, DESIGN, LAYOUT, BRANDING, AND ALL UNRELATED FUNCTIONALITY EXACTLY AS THEY ARE.
+
+DELIVER THE FINAL MODIFIED index.html FILE AFTER IMPLEMENTING ALL THE REQUESTED IMPROVEMENTS.
